@@ -1,10 +1,4 @@
 # Nested memory repository hygiene
 .DS_Store
-
-# Runtime auth/session/cache material should stay out of git even in a private repo
-data/cache/
-data/msgraph/
-data/whatsapp/
-*.bin3
 *.log
 *.tmp
