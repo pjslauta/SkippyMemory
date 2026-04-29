@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(xargs grep *)",
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "Bash(grep \"\\\\.log$\")",
+      "Bash(dotnet test *)"
     ]
   }
 }
